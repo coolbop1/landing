@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family:'Montserrat';
+}
+header{
+	position:relative;
+	height:70px;
+	border-bottom:3px solid #448ef6;
+}
+#logo{
+	position:absolute;
+	top:-15px;
+	left:10px;
+}
+nav{
+	position:absolute;
+	top:-5px;
+	right:20px
+}
+nav li{
+	list-style:none;
+	padding:20px;
+	float:left;
+	font-weight:600;
+}
+.sect{
+	width:50%;
+	min-height:300px;
+	postion:relative;
+}
+.fleft{
+	float:left;
+}
+.fnone{
+	float:none;
+	clear:both;
+}
+.hero{
+	background:violet;
+}
+.herotext{
+	padding:20px;
+	position:relative;
+}
+.herotext h1{
+	font-size:40px;
+	color:#111111;
+}
+h1 small{
+	text-transform:uppercase;
+	font-size:20px;
+	font-weight:400;
+}
+.sect img{
+	transform:rotate(10deg);
+	position:absolute;
+	left:calc(50% + 150px);
+	top:150px;
+}
+button{
+	border-style:none;
+	padding:15px;
+	min-width:150px;
+	background:inherit;
+	color:#448ef6;
+	border-radius:70px;
+	border:2px solid #448ef6;
+	position:absolute;
+	bottom:-50px;
+	text-transform: uppercase;
+}
+footer{
+	background:#333333;
+	color:#dfe2db;
+	padding:20px;
+}
+footer td{
+	padding:0 20px;
+}
